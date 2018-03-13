@@ -8,14 +8,13 @@
 /*1. Declare a variable named `howManyLetters` and find out how many letters are in the given string below. Console.log your result.*/
 
 var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maungahoronukupokaiwhenuakitanatahu";  //Yes, this is a real place located in Porangahau, Central Hawke's Bay.
-
-console.log(longestPlaceName);
-console.log("second git practice.");
+var howManyLetters = longestPlaceName.length;
+console.log(howManyLetters);
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
-
-
+var concatenate = longestPlaceName + " is the longest place name in the world and has " + howManyLetters + " letters in its name."
+console.log(concatenate);
 /*The string.charAt() method returns the character at the specified index (position).*/
 
 /*2. Declare a variable named `fifthLetter` and find out which letter is in the 5th position in the string below. Console.log your result.*/
